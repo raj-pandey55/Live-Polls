@@ -4,7 +4,7 @@ const { Client } = pg;
 const AppError = require('./utils/appError');
 
 const client = new Client({
-  host: 'db.nbjbkqzbscimqtguvbcu.supabase.co',
+  host: 'db.drnuwllaitfktbolnxtx.supabase.co',
   user: process.env.DB_USERNAME,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DBNAME,
